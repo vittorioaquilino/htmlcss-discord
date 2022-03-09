@@ -34,7 +34,7 @@ li{
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
 }
 
 .clearfix::after{
@@ -59,6 +59,11 @@ li{
 
 .btn-black{
     background-color: #23272a;
+    color: white;
+}
+
+.btn-blue{
+    background-color: #7289DA;
     color: white;
 }
 
@@ -145,6 +150,12 @@ header{
     margin-top: 1.5em;
 }
 
+.buttons-blue{
+    /* margin-top: 1.5em; */
+    text-align: right;
+    vertical-align: middle;
+}
+
 /* section */
 .section{
     padding: 3em;
@@ -169,21 +180,28 @@ header{
 }
 
 /* FOOTER */
+
+footer li {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .col-footer{
     float: left;
-    margin-right: 3em;
+    margin-right: 6em;
 }
 
 .footer-list{
     background-color: #23272a;
     /* height: 100px; */
     width: 100%;
+    padding-top: 4em;
 }
 
 .footer-title{
     color: #7289DA;
     font-weight: bold;
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 
 #first-title{
@@ -191,5 +209,7 @@ header{
 }
 
 .social{
-    font-size: 20px;
+    font-size: 1.5em;
 }
+
+
