@@ -9,6 +9,14 @@ html {
     font-family: "Whitney", sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -29,4 +37,19 @@ html {
 header{
     height: 60px;
     background-color: #3161E0;
+}
+
+.nav-logo, 
+.nav-btn{
+    width: 15%;
+    background-color: blueviolet;
+}
+
+.nav-center{
+    width: 70%;
+    background-color: chartreuse;
+}
+
+.header-menu li{
+    display: inline-block;
 }
