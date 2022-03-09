@@ -8,3 +8,25 @@
 html {
     font-family: "Whitney", sans-serif;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid coral;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+/* HEADER */
+header{
+    height: 60px;
+    background-color: #3161E0;
+}
