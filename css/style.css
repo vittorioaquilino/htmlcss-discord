@@ -17,10 +17,14 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
-    /* border: 2px solid coral; */
+    border: 2px solid coral;
 }
 
 .clearfix::after{
@@ -31,10 +35,6 @@ ul{
 
 .col{
     float: left;
-}
-
-.col a{
-    text-decoration: none;
 }
 
 /* bottom */
@@ -135,4 +135,12 @@ header{
 .section{
     padding: 3em;
     background-color: blue;
+}
+
+.col-img{
+    width: 60%;
+}
+
+.col-text{
+    width: 40%;
 }
