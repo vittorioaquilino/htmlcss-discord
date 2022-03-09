@@ -21,6 +21,16 @@ a{
     text-decoration: none;
 }
 
+li img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+li{
+    margin-top: 1em;
+    color: white;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -159,12 +169,27 @@ header{
 }
 
 /* FOOTER */
+.col-footer{
+    float: left;
+    margin-right: 3em;
+}
+
 .footer-list{
     background-color: #23272a;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
 }
 
 .footer-title{
     color: #7289DA;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+#first-title{
+    font-size: 2em;
+}
+
+.social{
+    font-size: 20px;
 }
