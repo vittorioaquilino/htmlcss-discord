@@ -20,7 +20,7 @@ ul{
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
 }
 
 .clearfix::after{
@@ -33,23 +33,89 @@ ul{
     float: left;
 }
 
+.col a{
+    text-decoration: none;
+}
+
+/* bottom */
+.btn-white{
+    background-color: white;
+    color: black;
+}
+
+.btn-black{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn-small{
+    padding: .6em 1em;
+    border-radius: 2em;
+    font-size: .9em;
+}
 /* HEADER */
 header{
     height: 60px;
     background-color: #3161E0;
 }
 
+.header-nav{
+    line-height: 60px;
+}
+
 .nav-logo, 
 .nav-btn{
     width: 15%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+
+.nav-logo img{
+    width: auto;
+    height: 40px;
+    vertical-align: middle;
 }
 
 .nav-center{
     width: 70%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+    text-align: center;
+}
+
+.nav-btn{
+    text-align: right;
 }
 
 .header-menu li{
     display: inline-block;
+    margin-right: 2em;
+}
+
+.header-menu a{
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+/* MAIN */
+
+/* banner */
+.banner{
+    height: 400px;
+    padding: 8em 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.banner-title{
+    font-size: 2.5em;
+    margin-bottom: .8em;
 }
