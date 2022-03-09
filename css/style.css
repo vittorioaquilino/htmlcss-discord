@@ -24,7 +24,7 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
 }
 
 .clearfix::after{
@@ -38,7 +38,7 @@ a{
 }
 
 .bg-grey{
-    background-color: lightgrey;
+    background-color: #F6F6F6;
 }
 
 /* bottom */
