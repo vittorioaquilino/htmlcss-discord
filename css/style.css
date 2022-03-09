@@ -37,6 +37,10 @@ a{
     float: left;
 }
 
+.bg-grey{
+    background-color: lightgrey;
+}
+
 /* bottom */
 .btn-white{
     background-color: white;
@@ -134,7 +138,7 @@ header{
 /* section */
 .section{
     padding: 3em;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .col-img{
@@ -142,5 +146,14 @@ header{
 }
 
 .col-text{
-    width: 40%;
+    width: 30%;
+    margin-top: 1.9em;
+}
+
+.col-text .title{
+    font-size: 2.5em;
+}
+
+.col-text .text{
+    margin-top: 1em;
 }
