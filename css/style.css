@@ -53,6 +53,13 @@ ul{
     border-radius: 2em;
     font-size: .9em;
 }
+
+.btn-large{
+    padding: 1em 2em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    display: inline-block;
+}
 /* HEADER */
 header{
     height: 60px;
@@ -118,4 +125,14 @@ header{
 .banner-title{
     font-size: 2.5em;
     margin-bottom: .8em;
+}
+
+.buttons{
+    margin-top: 1.5em;
+}
+
+/* section */
+.section{
+    padding: 3em;
+    background-color: blue;
 }
