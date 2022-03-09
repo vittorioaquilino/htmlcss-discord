@@ -24,7 +24,7 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;
-    /* border: 2px solid coral; */
+    border: 2px solid coral;
 }
 
 .clearfix::after{
@@ -142,7 +142,7 @@ header{
 }
 
 .col-img{
-    width: 60%;
+    width: 70%;
 }
 
 .col-text{
@@ -156,4 +156,15 @@ header{
 
 .col-text .text{
     margin-top: 1em;
+}
+
+/* FOOTER */
+.footer-list{
+    background-color: #23272a;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-title{
+    color: #7289DA;
 }
