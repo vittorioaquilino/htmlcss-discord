@@ -156,7 +156,7 @@ header{
     margin-top: 1.5em;
 }
 
-.buttons-blue{
+.copyright .buttons{
     text-align: right;
 }
 
@@ -183,6 +183,35 @@ header{
     margin-top: 1em;
 }
 
+/* tech section */
+.tech{
+    padding: 3em 0;
+}
+
+.tech-text{
+    text-align: center;
+    padding: 0 3em;
+}
+
+/* cta section */
+.cta{
+    padding-bottom: 2em;
+}
+
+.cta-title{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    background-image: url(../img/stars.svg);
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.cta .buttons{
+    text-align: center;
+}
 /* FOOTER */
 
 footer li {
@@ -215,5 +244,7 @@ footer li {
 .social{
     font-size: 1.5em;
 }
+
+
 
 
